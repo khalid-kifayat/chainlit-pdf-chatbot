@@ -1,0 +1,12 @@
+creating environemnt:
+python -m venv env
+
+requirements.txt: (run this file)  
+langchain, chromadb, tiktoken, chainlit, openai, pypdf2
+pip install -r requirements.txt
+
+
+chainlit run app.py -w
+
+
+
